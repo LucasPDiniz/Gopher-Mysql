@@ -12,7 +12,7 @@
 
  
 
-## The Laboratory
+## The Laboratory:test_tube:
 * In this lab, we have an NGINX server running a web page on port 80. 
 * On this page, there is already an LFI (Local File Inclusion) failure and from there, we will use Protocol Smuggling techniques with gopher to gain access to MYSQL.
 
@@ -27,7 +27,7 @@
 
  **From our LFI scenario, we can move on to the smuggling exploration.**
 
-## What is Gopher?
+## What is Gopher:question:
 
 * Gopher is a communication protocol that was created in the early 1990s. Gopher operated on a client-server model. A Gopher server provided content, and a Gopher client (the software used to access the content) would connect to the server to navigate through menus and view available documents. Although Gopher was popular in the early days of the internet, it was eventually surpassed by HTTP and the graphical web, which offered more features like images, videos, animations, and more interactive interfaces.
 
@@ -35,7 +35,7 @@
    <img width="350" height="100" src="./img/5.png">
  </p>
 
-## Exploring
+## Exploring:warning:
 
 1. First we need to check which ports are open, for that, we will build a basic script for that.
 
@@ -91,7 +91,7 @@ gopher%3A%2F%2F127.0.0.1%3A3306%2F_%25a3%2500%2500%2501%2585%25a6%25ff%2501%2500
 
 Here we can access MYSQL and consult the database version.
 
-## Reverse Shell via MYSQL
+## Reverse Shell via MYSQL:fire:
 
 * In this step, we will use an "into outfile" query.In MySQL, the INTO OUTFILE clause is used in a SELECT query to export the result of the query directly to a file in the server's file system. In other words, it allows you to save the output of a query into a file instead of just returning it as a result set.
 ```
