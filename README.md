@@ -2,16 +2,15 @@
 
  ### Introduction
 
- In this exploration, we will use gopher to access the MYSQL database, where MYSQL will be an internal service and will not be accessible via 3306 externally. Below we have a drawing of how this structure will be explored.
-
- <p align="center">
-   <img width="500" height="200" src="./img/1.png">
- </p>
-
- We can also call this technique **Protocol Smuggling**. The **Protocol Smuggling** is a technique used in cybersecurity and hacking where an attacker manipulates or hides data within communication protocols to bypass security systems, perform malicious actions, or exfiltrate data without detection.
+ In this exploration, we will use Gopher to access the MYSQL database, where MYSQL will be an internal service and will not be accessible via 3306 externally. We can also call this technique **Protocol Smuggling**. The **Protocol Smuggling** is a technique used in cybersecurity and hacking where an attacker manipulates or hides data within communication protocols to bypass security systems, perform malicious actions, or exfiltrate data without detection.
 
   <p align="center">
-   <img width="360" height="210" src="./img/mysql.jpg">
+   <img width="360" height="210" src="./img/mysql2.png">
+ </p>
+
+ Below we have a drawing of how this structure will be explored.
+ <p align="center">
+   <img width="400" height="160" src="./img/1.png">
  </p>
 
 ## The Laboratory :test_tube:
