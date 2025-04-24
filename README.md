@@ -10,7 +10,9 @@
 
  We can also call this technique **Protocol Smuggling**. The **Protocol Smuggling** is a technique used in cybersecurity and hacking where an attacker manipulates or hides data within communication protocols to bypass security systems, perform malicious actions, or exfiltrate data without detection.
 
- 
+  <p align="center">
+   <img width="360" height="210" src="./img/mysql.jpg">
+ </p>
 
 ## The Laboratory :test_tube:
 * In this lab, we have an NGINX server running a web page on port 80. 
